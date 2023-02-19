@@ -121,14 +121,8 @@ zofka.penDown();
         zofka.move(140);
         zofka.penDown();
 
-        //písmeno J
-        zofka.move(100);
-        zofka.turnRight(140);
-        zofka.move(40);
-        zofka.turnRight(180);
-        zofka.move(40);
-        zofka.turnLeft(50);
-        zofka.penUp();
+        pismenoJ();
+
         //posun
         zofka.move(150);
 
@@ -151,6 +145,16 @@ zofka.penDown();
 
 
         //TODO implementace domácího úkolu
+    }
+
+    private void pismenoJ() {
+        zofka.move(100);
+        zofka.turnRight(140);
+        zofka.move(40);
+        zofka.turnRight(180);
+        zofka.move(40);
+        zofka.turnLeft(50);
+        zofka.penUp();
     }
 
     private void pismenoN() {
